@@ -6,7 +6,8 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const fetchuser = require('../middelware/fetchuser');
 
-jwtSecret_key = "noteswebkey@112#"  // jwt secret key
+
+jwtSecret_key ="noteswebkey@112#"   // jwt secret key
 
 //Route 1:- create a user using "apii/auth/createUser"  api. No login required
 router.post('/createUser', [

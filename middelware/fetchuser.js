@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 
+
 jwtSecret_key = "noteswebkey@112#"
 
 const fetchuser = (req, res, next) => {
